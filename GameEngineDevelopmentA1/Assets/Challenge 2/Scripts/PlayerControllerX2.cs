@@ -16,7 +16,7 @@ public class PlayerControllerX2 : MonoBehaviour
         // On spacebar press, send dog
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if (counter > 0.5f)
+            if (counter > 2.5f)
             {
                 Instantiate(dogPrefab, transform.position, dogPrefab.transform.rotation);
                 counter = 0;
